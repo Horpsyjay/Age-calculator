@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator | frontEnd Mentor Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="flex-container">
+        <div class="input-container">
+          <label for="day">day</label>
+          <input
+            class="form-input"
+            type="number"
+            name=""
+            id="day"
+            placeholder="DD"
+          />
+          <p class="error day">This field is required</p>
+        </div>
+        <div class="input-container">
+          <label for="month">month</label>
+          <input
+            class="form-input"
+            type="number"
+            name=""
+            id="month"
+            placeholder="MM"
+          />
+          <p class="error month"></p>
+        </div>
+        <div class="input-container">
+          <label for="year">year</label>
+          <input
+            class="form-input"
+            type="number"
+            name=""
+            id="year"
+            placeholder="YYYY"
+          />
+          <p class="error year"></p>
+        </div>
+      </div>
+      <button type="submit" class="calc" id="btn">
+        <img src="assets/images/icon-arrow.svg" alt="" />
+      </button>
+
+      <div class="result">
+        <h1><span class="result-years">--</span>years</h1>
+        <h1><span class="result-months">--</span>months</h1>
+        <h1><span class="result-days">--</span>days</h1>
+      </div>
+    </div>
+  </body>
+</html>
