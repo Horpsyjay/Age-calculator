@@ -42,7 +42,6 @@ body {
   border-bottom-right-radius: 8.5rem;
   padding: 2rem;
   max-width: 80%; /* makes the container shrink in responsiveness*/
-  /* position: relative; */
 }
 
 /* Hides the arrow up and down scroller */
@@ -154,7 +153,7 @@ hr {
 
 @media (max-width: 700px) {
   .form-input {
-    width: 80%;
+    width: 100%;
   }
 
   .result {
