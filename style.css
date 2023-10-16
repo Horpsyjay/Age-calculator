@@ -108,13 +108,6 @@ label {
   border-bottom: 2px solid var(--light-grey);
 }
 
-hr {
-  margin-top: 40px;
-  outline: none;
-  border: 1px solid var(--light-grey);
-  width: 500px;
-}
-
 .calc {
   width: 70px;
   height: 70px;
@@ -154,10 +147,12 @@ hr {
 @media (max-width: 700px) {
   .form-input {
     width: 100%;
+    font-size: 16px;
   }
 
   .result {
     font-size: 1rem;
+    margin-top: 3.5rem;
   }
 
   .result span {

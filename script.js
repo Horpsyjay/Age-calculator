@@ -136,17 +136,20 @@ const calculateAge = () => {
         let diffInAge = Date.now() - birthdayObj;  // subtracts user age from pesent time in milliseconds 
         let ageResult = new Date(diffInAge);
 
-        let outputYears = ageResult.getUTCFullYear() - 1970;
-        let outputMonths = ageResult.getUTCMonth();
-        let outputDays = ageResult.getUTCDay();
+        const outputYears = ageResult.getUTCFullYear() - 1970;
+        const outputMonths = ageResult.getUTCMonth();
+        const outputDays = ageResult.getUTCDay();
 
         //  Adding the results to DOM
         resultYear.textContent = outputYears;
         resultMonth.textContent = outputMonths;
         resultDay.textContent = outputDays;
 
+
+
     } else {
-        alert('Egbon, fill the fields appropriately');
+        alert('Egbon, fill in the fields appropriately')
+
     }
 
     inputs.forEach((input) => {
